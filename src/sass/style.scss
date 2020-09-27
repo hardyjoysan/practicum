@@ -1,14 +1,3 @@
-$theme-colors: (
-    "primary": #ff3a52,
-    "dark": #000000
-);
-
-body {
-    padding-top:56px;
-}
-.footer {
-    margin-top:3rem;
-}
-.navbar {
-    border-bottom:1px solid #eee;
-}
+@import './normalize.scss';
+@import './main.scss';
+@import './responsive.scss';
