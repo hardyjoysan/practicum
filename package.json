@@ -10,8 +10,8 @@
     "url": "https://github.com/wowthemesnet/bootstrap-4-boilerplate.git"
   },
   "scripts": {
-    "start": "gulp",
-    "dev": "gulp serve",
+    "start": "gulp serve",
+    "build": "gulp",
     "prod": "cross-env NODE_ENV=prod gulp"
   },
   "devDependencies": {
